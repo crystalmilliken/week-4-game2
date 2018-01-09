@@ -1,0 +1,57 @@
+body{
+    background: url("../images/dust_scratches.png");
+    width:80%;
+    margin:auto;
+    text-align: center;
+}
+h1{
+    border-bottom: thin black solid;
+}
+.crystals{
+    float:left;
+    box-shadow: 2px 5px 2px 2px;
+    margin-left:2em;
+}
+.crystals:hover{
+    background-color: lightgray;
+    position:relative;
+    opacity: 0.7;
+
+    z-index: 2;
+}
+#random{
+    background-color: lightblue;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    float:left;
+    padding:2em;
+    clear:right;
+}
+#winsLosses{
+    text-align: justify;
+    padding: 2em;
+    margin-left:5em;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+#score{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left:5em;
+    text-align: justify;
+}
+#scoreInfo{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    clear:both;
+    padding-top:2em;
+    text-align: justify;
+}
+#gameInfo{
+    text-align: justify;
+}
+.close{
+    color:red;
+}
